@@ -84,7 +84,7 @@ if (isset($_GET['id'])) {
                     <input type="hidden" class="form-control" name="id" value="<?php echo $row['id'] ?>">
                     <input type="text" class="form-control" name="nama_lokasi" value="<?php echo $row['nama_lokasi'] ?>">
                 </div>
-                <a href="?=page=lokasiread" class="btn btn-danger btn-sm float-right">
+                <a href="?page=lokasiread" class="btn btn-danger btn-sm float-right">
                     <i class="fa fa-times"></i> Batal
                 </a>
                 <button type="submit" name="button_update" class="btn btn-success btn-sm float-right">
